@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital & Analog Clock with Alarm</title>
+    <!-- Google Fonts for premium modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1 id="app-heading">Digital & Analog Clock with Alarm</h1>
+        </header>
+        
+        <main class="clock-display">
+            <div class="clock-wrapper">
+                <!-- Digital Clock Card -->
+                <div class="digital-clock-container">
+                    <div id="digital-clock">00:00:00 AM</div>
+                </div>
+                
+                <!-- Analog Clock Card -->
+                <div class="analog-clock-container">
+                    <div class="analog-clock">
+                        <div class="clock-face">
+                            <span class="number number-12">12</span>
+                            <span class="number number-3">3</span>
+                            <span class="number number-6">6</span>
+                            <span class="number number-9">9</span>
+                            
+                            <div class="hand hour-hand" id="hour-hand"></div>
+                            <div class="hand minute-hand" id="minute-hand"></div>
+                            <div class="hand second-hand" id="second-hand"></div>
+                            <div class="center-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
